@@ -1,11 +1,22 @@
-# selpics-photo-extractor
+# 📷 selpics-photo-extractor
 
 ## What is Selpics?
-Selpics is a platform used by photographers to create albums and send them to clients for photo selection.
-    
+
 <table>
   <tr>
     <td>
+      <img src="https://github.com/bielzann/selpics-photo-extractor/assets/142922592/6c323211-a935-40b4-a837-bf7116900908" width="500")
+    </td>
+    <td align="justify">
+      Selpics is a platform used by photographers to create albums and send them to clients for photo selection.
+    </td>
+  </tr>
+</table>
+
+## Gallery Summary
+<table>
+  <tr>
+    <td align="justify">
       In the example screenshot, the photographer created an album with 33 photos and sent it to the client 'g173058@dac.unicamp.br', who selected the photos.
     </td>
     <td>
@@ -18,11 +29,11 @@ Selpics is a platform used by photographers to create albums and send them to cl
 
 <table>
   <tr>
-    <td>
-      In the client selection, the chosen photos appear with the same names as at the time of upload.
+    <td align="justify">
+        <img src="https://github.com/bielzann/selpics-photo-extractor/assets/142922592/72fdc45a-4d02-4ce4-bbf1-48806c8bdd4a" width="500">
     </td>
     <td>
-      <img src="https://github.com/bielzann/selpics-photo-extractor/assets/142922592/72fdc45a-4d02-4ce4-bbf1-48806c8bdd4a" width="300">
+        In the client selection, the chosen photos appear with the same names as at the time of upload.
     </td>
   </tr>
 </table>
@@ -30,7 +41,7 @@ Selpics is a platform used by photographers to create albums and send them to cl
 ## Extractor
 <table>
   <tr>
-    <td align="center">
+    <td align="justify">
       The extractor opens the link provided in the 'Album URL', retrieves the names of the chosen photos, opens the selected directory in 'Photo directory', 
       copies and places them in a 'Chosen' folder within the root directory. The photographer must enter their Email and Password for everything to proceed correctly. 
       If everything goes well, in addition to the created folder, a list with the names of the chosen photos is displayed, along with a success message.
@@ -47,3 +58,14 @@ Selpics is a platform used by photographers to create albums and send them to cl
     </td>
   </tr>
 </table>
+
+### _Required 'pip install' commands_
+<div style="border: 1px solid #000; padding: 10px;">
+    <ul>
+        <li>pip install selenium</li>
+        <li>pip install beautifulsoup4</li>
+        <li>pip install Pillow</li>
+        <li>pip install tk</li>
+        <li>pip install chromedriver-autoinstaller</li>
+    </ul>
+</div>
