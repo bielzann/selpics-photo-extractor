@@ -13,7 +13,7 @@
   </tr>
 </table>
 
-## Gallery Summary
+### Gallery Summary
 <table>
   <tr>
     <td align="justify">
@@ -25,7 +25,7 @@
   </tr>
 </table>
 
-## Client Selection
+### Client Selection
 
 <table>
   <tr>
@@ -38,7 +38,7 @@
   </tr>
 </table>
 
-## Extractor
+### Extractor
 <table>
   <tr>
     <td align="justify">
